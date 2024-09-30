@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  /* overflow-x: hidden !important;   height: 100%;  */
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.first {
+  height: 42px;
+}
+
+.btn {
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.firstimg {
+  background-image: url(../images/first.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  position: static;
+  text-transform: uppercase;
+}
+
+.center h1 {
+  font-size: 2.813rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.sec {
+  justify-content: center;
+  display: flex;
+  padding-left: 160px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.Trail {
+  justify-content: center;
+  display: flex;
+  padding-left: 100px;
+}
+
+.about {
+  display: flex;
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+span {
+  color: rgb(204, 37, 37);
+}
+
+.text h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 14px;
+}
+
+.car img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+}
+
+.picture img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+}
+
+.services {
+  padding: 20px 0;
+}
+
+.mainitems {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.serviceitem {
+  width: 900px;
+  height: auto;
+}
+
+.box {
+  margin: 10px;
+  width: 300px;
+  height: auto;
+  box-shadow: -1px 0 10px #fff;
+  background: #fff;
+  color: #000;
+}
+
+.box img {
+  width: 300px;
+  height: 180px;
+  display: flex;
+}
+
+.content {
+  padding: 10px;
+}
+
+.box h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.box p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.review {
+  height: 400px;
+}
+
+.reach {
+  text-align: center;
+  margin-top: 70px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.reach p {
+  font-size: 15px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-size: 40px;
+  font-weight: 800;
+  padding: 0 15px;
+}
+
+td {
+  font-size: 13px;
+  color: grey;
+  padding: 0 20px;
+}
+
+.reviews {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.reviews h2 {
+  text-transform: capitalize;
+}
+
+.reviewboxes {
+  margin-top: 3rem;
+  /* display: flex; */
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+/* .frame {
+  display: flex;
+} */
+
+.card-wrapper {
+  max-width: 1100px;
+  margin: 0 60px 35px;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+
+.box11 {
+  user-select: none;
+  display: block;
+  padding: 15px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: -1px 1px 7px rgba(233, 230, 230, 0.5);
+  background: rgb(36, 36, 43);
+}
+
+.box11 i {
+  color: rgb(194, 194, 33);
+}
+
+.box11 img {
+  width: 50px;
+  height: 50px;
+}
+
+.box11 p {
+  font-size: 14px;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.image {
+  display: flex;
+}
+
+.slideruser {
+  margin-left: 7px;
+}
+
+.slideruser h6 {
+  margin-top: 5px;
+  color: #fff;
+}
+
+.slideruser p {
+  padding: 0;
+}
+
+.colab {
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.logos {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.logos img {
+  width: 25%;
+  padding: 0 10px;
+}
+
+.store {
+  margin-top: 2rem;
+}
+
+.appstore {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.appstore h1 {
+  margin-top: 3rem;
+}
+
+.mobile {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.mobile img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 700px;
+}
+
+.button {
+  gap: 17px;
+  justify-content: center;
+  display: flex;
+}
+
+.btn3 {
+  background-color: black;
+  color: #fff;
+  border: 2px solid rgb(196, 158, 158);
+  border-radius: 4px;
+  width: 17%;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  height: 60px;
+  display: flex;
+  padding: 13px;
+  margin: 0 0 4rem;
+}
+
+.btn3 i {
+  font-size: 40px;
+  padding-right: 1rem;
+}
+
+/* iphone 14 pro max query */
+@media only screen and (min-width: 350px) and (max-width: 1200px) {
+  .first {
+    display: none;
+  }
+  .center h1 {
+    padding: 0;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center h3 {
+    font-size: 1.5rem;
+  }
+  .about {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+  }
+  .car {
+    width: 100%;
+  }
+  .serviceitem {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  th {
+    font-size: 2rem;
+  }
+  /* .reviewboxes .box11 {
+    height: auto;
+  }
+  .reviewboxes {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  .appstore h1 {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn3 {
+    width: 45%;
+  }
+}

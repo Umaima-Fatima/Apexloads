@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "syeda-umaima-fatima"
+  },
+  "targets": {
+    "syeda-umaima-fatima": {
+      "hosting": {
+        "tr": [
+          "transportation-1a353"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
