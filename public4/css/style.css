@@ -210,6 +210,11 @@ td {
   overflow: hidden;
   box-shadow: -1px 1px 7px rgba(233, 230, 230, 0.5);
   background: rgb(36, 36, 43);
+  transition: 0.2 ease;
+}
+
+.box11:active {
+  cursor: grabbing;
 }
 
 .box11 i {
@@ -242,6 +247,23 @@ td {
 
 .slideruser p {
   padding: 0;
+}
+
+.card-wrapper .swiper-pagination-bullet {
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+  /* background: #5372f0; */
+  background: rgba(233, 230, 230, 0.5);
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.card-wrapper .swiper-slide-button {
+  color: rgba(233, 230, 230, 0.5);
+  margin-top: -35px;
 }
 
 .colab {
@@ -318,7 +340,17 @@ td {
   width: 250px;
 }
 
-/* iphone 14 pro max query */
+/* media query */
+@media screen and (max-width: 768px) {
+  .card-wrapper {
+    margin: 0 20px 25px;
+  }
+
+  .card-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 350px) and (max-width: 1200px) {
   .first {
     display: none;
