@@ -11,10 +11,6 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.first {
-  height: 42px;
-}
-
 .btn {
   border-radius: 30px;
   font-size: 15px;
@@ -253,7 +249,6 @@ td {
   height: 13px;
   width: 13px;
   opacity: 0.5;
-  /* background: #5372f0; */
   background: rgba(233, 230, 230, 0.5);
 }
 
@@ -341,20 +336,13 @@ td {
 }
 
 /* media query */
-@media screen and (max-width: 768px) {
-  .card-wrapper {
-    margin: 0 20px 25px;
-  }
-
-  .card-wrapper .swiper-slide-button {
+@media screen and (max-width: 481px) {
+  .first {
     display: none;
   }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 1200px) {
-  .first {
-    display: none;
-  }
   .center h1 {
     padding: 0;
     font-size: 3rem;
@@ -362,37 +350,59 @@ td {
     justify-content: center;
     align-items: center;
   }
+
   .center h3 {
     font-size: 1.5rem;
   }
+
+  .Trail {
+    margin-left: 35px;
+  }
+
   .about {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
   }
+
   .text {
     width: 100%;
   }
+
   .car {
     width: 100%;
   }
+
   .serviceitem {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
   }
+
   th {
     font-size: 2rem;
   }
+
   .appstore h1 {
     font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .btn3 {
     width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-wrapper {
+    margin: 0 20px 25px;
+  }
+
+  .card-wrapper .swiper-slide-button {
+    display: none;
   }
 }
