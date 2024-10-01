@@ -14,6 +14,7 @@ body {
 .btn {
   border-radius: 30px;
   font-size: 15px;
+  border: 1px solid;
 }
 
 .logo img {
@@ -166,13 +167,13 @@ h2 {
 .center th {
   font-size: 40px;
   font-weight: 800;
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 .center td {
   font-size: 13px;
-  color: grey;
-  padding: 0 20px;
+  color: #ccc;
+  padding: 0 10px;
 }
 
 .reviews {
@@ -350,7 +351,7 @@ h2 {
 }
 
 .footer h3 {
-  color: grey;
+  color: #ccc;
   font-size: 23px;
   font-weight: 400;
 }
@@ -370,7 +371,7 @@ h2 {
 
 .form-control {
   background-color: transparent;
-  width: 70%;
+  width: 60%;
   border-radius: 10px;
   border: 1px solid #fff;
 }
@@ -382,7 +383,7 @@ h2 {
 .name h5 {
   margin: 1.2rem 1.2rem;
   font-size: 10px;
-  color: grey;
+  color: #ccc;
   text-transform: uppercase;
 }
 
@@ -393,19 +394,12 @@ h2 {
   padding-bottom: 5rem;
 }
 
-/* 
-.contact p {
+.copyright p {
   text-align: end;
-  justify-content: right;
-  color: grey;
+  margin-top: 4rem;
   font-size: 13px;
-  text-transform: uppercase;
+  color: #ccc;
 }
-
-.contact th {
-  font-size: 20px;
-  font-weight: 300;
-} */
 
 /* media query */
 @media screen and (max-width: 481px) {
