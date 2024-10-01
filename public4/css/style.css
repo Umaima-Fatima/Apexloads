@@ -163,13 +163,13 @@ h2 {
   margin-right: auto;
 }
 
-th {
+.center th {
   font-size: 40px;
   font-weight: 800;
   padding: 0 15px;
 }
 
-td {
+.center td {
   font-size: 13px;
   color: grey;
   padding: 0 20px;
@@ -331,9 +331,81 @@ td {
   padding-right: 1rem;
 }
 
-.footer img {
-  width: 250px;
+.last {
+  margin-top: 5rem;
 }
+
+.footer img {
+  margin-bottom: 2rem;
+  width: 200px;
+}
+
+.footer h6 {
+  color: rgb(185, 185, 235);
+}
+
+.footer p {
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.footer h3 {
+  color: grey;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.footer h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.name {
+  margin-top: 2rem;
+}
+
+.col {
+  margin: 1rem 0;
+}
+
+.form-control {
+  background-color: transparent;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.name button {
+  margin-bottom: 3rem;
+}
+
+.name h5 {
+  margin: 1.2rem 1.2rem;
+  font-size: 10px;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.name a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding-bottom: 5rem;
+}
+
+/* 
+.contact p {
+  text-align: end;
+  justify-content: right;
+  color: grey;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.contact th {
+  font-size: 20px;
+  font-weight: 300;
+} */
 
 /* media query */
 @media screen and (max-width: 481px) {
